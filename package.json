@@ -4,7 +4,9 @@
   "description": "curso de node",
   "main": "index.js",
   "scripts": {
+    "ncu:update": "ncu -u && yarn",
     "dev": "nodemon src/index --w --exec babel-node"
+
   },
   "repository": "git@github.com:elboqueronpaco/cursonode.git",
   "author": "elboqueronpaco <elboqueronpaco@gmail.com>",
